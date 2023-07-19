@@ -25,8 +25,8 @@ jobs:
   Use-Local-Action:
     uses: jasontiedt/github-script/.github/workflows/greet-everyone.yml@main
     with:
-       remote-secret-one: ${{ secrets.SECRET_ONE }}
-       remote-secret-two: ${{ secrets.SECRET_TWO }}
+       local-variable-one: ${{ secrets.SECRET_ONE }}
+       local-variable-two: ${{ secrets.SECRET_TWO }}
        passthrough-one: ${{ github.event.inputs.passthrough-one }}
        passthrough-two: ${{ github.event.inputs.passthrough-two }}
   
