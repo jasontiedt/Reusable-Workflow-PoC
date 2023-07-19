@@ -5,10 +5,10 @@ branding:
   color: blue
   icon: code
 inputs:
-  remote-secret-one:
+  local-variable-one:
     description: This will inherit a secret from the Action Repo
     required: false
-  remote-secret-two:
+  local-variable-two:
     description: This will inherit a secret from the Action Repo
     default: ${{ github.token }}
     required: false
