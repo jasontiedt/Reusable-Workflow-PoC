@@ -6,10 +6,10 @@ branding:
   icon: code
 inputs:
   local-variable-one:
-    description: This will inherit a secret from the Action Repo
+    description: This will inherit a variable from the Actions Repo
     required: false
   local-variable-two:
-    description: This will inherit a secret from the Action Repo
+    description: This will inherit a variable from the Actions Repo
     default: ${{ github.token }}
     required: false
   passthrough-one:
